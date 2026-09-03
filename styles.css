@@ -72,6 +72,14 @@ img { max-width: 100%; display: block; }
   font-size: 22px;
   font-weight: 500;
   letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-mark {
+  height: 38px;
+  width: auto;
+  display: block;
 }
 .nav-links {
   display: flex;
@@ -263,7 +271,7 @@ footer .wrap {
   flex-wrap: wrap;
   gap: 32px;
 }
-.footer-brand .nav-logo { display: block; }
+.footer-brand .nav-logo { display: inline-flex; }
 .footer-brand p {
   margin-top: 10px;
   color: var(--cream-faint);
