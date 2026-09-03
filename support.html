@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Remnant</title>
+<meta name="description" content="Need help with Remnant? Get in touch and we'll get back to you.">
+<link rel="canonical" href="https://remnant-app.com/support.html">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#14100c">
+<link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="/" class="nav-logo">Remnant</a>
+    <div class="nav-links">
+      <a href="/#how">How it works</a>
+      <a href="/support.html">Support</a>
+      <a href="#" class="btn btn-primary btn-sm" id="beta-link-1">Try the beta</a>
+    </div>
+  </div>
+</nav>
+
+<section class="support">
+  <div class="wrap">
+    <h1>Need help?</h1>
+    <p>Email us and we'll get back to you as soon as we can — whether it's a bug, a question about your account, or something that just didn't feel right.</p>
+    <a href="mailto:support@remnant-app.com" class="btn btn-primary">Email support@remnant-app.com</a>
+
+    <div class="support-links">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms of Service</a>
+      <a href="/#how">How it works</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-brand">
+      <a href="/" class="nav-logo">Remnant</a>
+      <p>A voice note, pinned to the place it happened.</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Product</h4>
+        <a href="/#how">How it works</a>
+        <a href="#" id="beta-link-2">Try the beta</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="/support.html">Support</a>
+        <a href="mailto:support@remnant-app.com">support@remnant-app.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    &copy; 2026 Remnant. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  const testflightURL = "https://testflight.apple.com/join/J72qJNYd";
+  document.querySelectorAll('#beta-link-1,#beta-link-2')
+    .forEach(el => el.href = testflightURL);
+</script>
+
+</body>
+</html>
