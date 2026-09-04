@@ -5,8 +5,8 @@
   --cream: #f3ece0;
   --cream-dim: #b8ab97;
   --cream-faint: #8a7d6b;
-  --ember: #e8813a;
-  --ember-dim: #b8632a;
+  --ember: #b97c6b;
+  --ember-dim: #a5695a;
   --rose: #b97c6b;
   --line: rgba(243, 236, 224, 0.09);
   --line-strong: rgba(243, 236, 224, 0.16);
@@ -18,7 +18,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: var(--ink);
+  background: var(--ink) url('assets/bg-texture.jpg') center top / cover no-repeat fixed;
   color: var(--cream);
   font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
   font-size: 17px;
@@ -107,7 +107,7 @@ img { max-width: 100%; display: block; }
   background: var(--ember);
   color: #1a1310;
 }
-.btn-primary:hover { background: #f0904f; }
+.btn-primary:hover { background: #c68e7e; }
 .btn-ghost {
   background: transparent;
   color: var(--cream-dim);
