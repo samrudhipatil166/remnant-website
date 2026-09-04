@@ -154,6 +154,11 @@ img { max-width: 100%; display: block; }
   font-size: 14px;
   color: var(--cream-faint);
 }
+.free-note {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--cream-faint);
+}
 .hero-visual {
   position: relative;
   display: flex;
@@ -252,34 +257,32 @@ img { max-width: 100%; display: block; }
 /* ---------- FAQ ---------- */
 .faq {
   padding: 100px 0;
-  border-top: 1px solid var(--line);
-}
-.faq h2 {
-  font-size: 34px;
-  text-align: center;
-}
-.faq-list {
-  margin-top: 48px;
-  max-width: 70ch;
-  margin-left: auto;
-  margin-right: auto;
-}
-.faq-item {
-  padding: 24px 0;
   border-bottom: 1px solid var(--line);
 }
-.faq-item:first-child { padding-top: 0; }
-.faq-item:last-child { border-bottom: none; }
+.faq h2 {
+  font-size: 32px;
+  margin-bottom: 44px;
+}
+.faq-list {
+  max-width: 760px;
+}
+.faq-item {
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
+}
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
 .faq-item h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--cream);
+  margin: 0 0 10px;
 }
 .faq-item p {
-  margin-top: 8px;
   color: var(--cream-dim);
-  font-size: 15px;
-  line-height: 1.55;
+  font-size: 15.5px;
+  line-height: 1.65;
+  margin: 0;
 }
 
 /* ---------- Final CTA ---------- */
