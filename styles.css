@@ -267,7 +267,7 @@ img { max-width: 100%; display: block; }
   max-width: 760px;
 }
 .faq-item {
-  padding: 26px 0;
+  padding: 36px 0;
   border-top: 1px solid var(--line);
 }
 .faq-item:last-child { border-bottom: 1px solid var(--line); }
