@@ -249,6 +249,39 @@ img { max-width: 100%; display: block; }
   color: var(--cream);
 }
 
+/* ---------- FAQ ---------- */
+.faq {
+  padding: 100px 0;
+  border-top: 1px solid var(--line);
+}
+.faq h2 {
+  font-size: 34px;
+  text-align: center;
+}
+.faq-list {
+  margin-top: 48px;
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+.faq-item {
+  padding: 24px 0;
+  border-bottom: 1px solid var(--line);
+}
+.faq-item:first-child { padding-top: 0; }
+.faq-item:last-child { border-bottom: none; }
+.faq-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cream);
+}
+.faq-item p {
+  margin-top: 8px;
+  color: var(--cream-dim);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
 /* ---------- Final CTA ---------- */
 .cta-final {
   padding: 110px 0;
